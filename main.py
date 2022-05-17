@@ -49,7 +49,7 @@
 #             return render_template('home2.html',message="😃😍😝",value=data,index=inp1)
 #     return render_template('home2.html')
 #
-# #set FLASK_APP=app.py
+# #set FLASK_APP=main.py
 # #set FLASK_ENV=development
 # #flask run
 
@@ -127,8 +127,21 @@ def main_tweet():
         else:
             return render_template('home2.html',message="😃😍😝")
     return render_template('home2.html')
-if __name__ =='__main__':
-    app.run()
-#set FLASK_APP=app.py
+# if __name__ =='__main__':
+#     app.run()
+#set FLASK_APP=main.py
 #set FLASK_ENV=development
 #flask run
+
+
+
+#heroku step
+
+#git init
+#heroku login
+#heroku git:remote -a predictdepression
+#pip install gunicorn
+#pip freeze > requirements.txt
+#git add .
+#git commit -m "first commit"
+#git push heroku master
