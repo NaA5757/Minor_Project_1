@@ -141,7 +141,6 @@ if __name__ =='__main__':
 #heroku login
 #heroku git:remote -a ddviasocial
 #pip install gunicorn
-#pip freeze > requirements.txt
 #git add .
 #git commit -m "first commit"
 #git push heroku master
