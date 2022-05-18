@@ -2,7 +2,6 @@ import re  # for regular expressions
 import pandas as pd  # For analyze data
 import numpy as np  # for working with arrays
 import Tokenization
-#import getUserTweets
 import Performance
 import Vectorization
 import model
