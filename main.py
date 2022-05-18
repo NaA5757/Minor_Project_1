@@ -139,7 +139,7 @@ if __name__ =='__main__':
 
 #git init
 #heroku login
-#heroku git:remote -a ddviasocial
+#heroku git:remote -a myminorproject
 #pip install gunicorn
 #pip freeze > requirements.txt
 #git add .
