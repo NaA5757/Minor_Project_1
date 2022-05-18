@@ -59,7 +59,7 @@ import getUserTweets
 import Performance
 import Vectorization
 import Test
-app = Flask(__name__)
+main = Flask(__name__)
 model,bow_Vectorization = Test.model_vect()
 # streamming_tweet = getUserTweets.public_tweets()
 # streamming_tweet.append("sad")
@@ -127,8 +127,8 @@ def main_tweet():
         else:
             return render_template('home2.html',message="😃😍😝")
     return render_template('home2.html')
-# if __name__ =='__main__':
-#     app.run()
+if __name__ =='__main__':
+    main.run()
 #set FLASK_APP=main.py
 #set FLASK_ENV=development
 #flask run
@@ -139,7 +139,7 @@ def main_tweet():
 
 #git init
 #heroku login
-#heroku git:remote -a predictdepression
+#heroku git:remote -a ddviasocial
 #pip install gunicorn
 #pip freeze > requirements.txt
 #git add .
